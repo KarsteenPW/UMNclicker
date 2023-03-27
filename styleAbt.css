@@ -1,0 +1,48 @@
+.card {
+    transition: all 0.2s ease-in-out;
+}
+  
+.card:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+  
+.card-body {
+    background-color: #4b5a65;
+}
+
+.card-image img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+footer {
+    margin: 0;
+    font-family: arial;
+}
+
+#bungkus2 {
+    display: flex;
+    width: 100%;
+    height: 172px;
+    margin: 20px auto 0;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+#bungkus2 .atas, .bawah {
+    justify-content: space-between;
+    width: 500px;
+    height: 150px;
+    margin: 10px 30px auto;
+}
+
+.atas p {
+    color: rgb(218, 218, 216);
+    width: 500px;
+}

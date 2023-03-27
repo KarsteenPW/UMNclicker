@@ -1,0 +1,148 @@
+#Alien {
+    background-image: url("img/tes.gif");
+    background-size: contain;
+    width: auto;
+    height: 600px;
+    user-select: none;
+}
+  
+/*#Alien:hover{ transform: scale(1.10);}
+#Alien:active{ transform: scale(0.99);}*/
+
+h3, h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.counterTop {
+    font-size: 20px;
+}
+
+
+span {
+    color: #ffffff;
+}
+
+body {
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    color: #000000;
+    background-color:#4b6769;
+}
+  
+.rightSide {
+    float: right;
+    width: 50%;
+}
+
+.leftSide {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.counterTop {
+    background-color: #21565C;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.upButton {
+    background: linear-gradient(to left, #21565C, #21565C);
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 143px;
+}
+
+.upButton:hover {
+    background: linear-gradient(to left, #21565C, #ffffff);
+    transition: all .2s ease-in-out;;
+}
+
+.upButton #image {
+    width: 25%;
+}
+
+.upButton img {
+    color: black;
+    height: 84px;
+    width: 134px;
+    margin-left: 20px;
+}
+
+.upButton #upNameBtn p:first-of-type {
+    font-size: 24px;
+}
+
+.upButton #upNameBtn p {
+    margin-right: 70px;
+}
+
+.upButton #amount {
+    font-size: 48px;
+    color:#000000;
+    font-family: 'Franklin Gothic Medium';
+    width: 10%;
+}
+
+.noscan {
+    user-select: none;
+}
+
+#upPop {
+    margin-top: 20px;
+}
+
+#upPop img {
+    height: 64px;
+    width: 64px;
+}
+
+#unlock1,#unlock2,#unlock3,#unlock4,#unlock5 {
+    filter: grayscale(100%) brightness(0%);
+}
+
+#unlockk1, #unlockk2, #unlockk3, #unlockk4, #unlockk5 {
+    filter: grayscale(100%) brightness(10%);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar li a:hover {
+    background-color: #111;
+}
+
+#box {
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('img/cosmos.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
